@@ -41,13 +41,13 @@
                     </a>
                 </nav>
                 <div class="hidden md:flex items-center gap-8">
-                    <button class="flex items-center text-sm font-normal text-dark-grey-800 hover:text-dark-grey-1000 transition duration-300">
+                    <button id="log-in-btn" class="flex items-center text-sm font-normal text-dark-grey-800 hover:text-dark-grey-1000 transition duration-300">
                         Log In
                     </button>
                     <!-- <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-purple-blue-100 hover:text-purple-blue-600 transition duration-300">
                         Sign Up
                     </button> -->
-                    <button class="flex items-center px-4 py-2 text-sm font-bold text-white bg-green-500 rounded-xl transition duration-300 hover:bg-pink-500">
+                    <button id="sign-up-btn" class="flex items-center px-4 py-2 text-sm font-bold text-white bg-green-500 rounded-xl transition duration-300 hover:bg-pink-500">
                         Sign Up
                     </button>
                 </div>
@@ -78,11 +78,11 @@
                         class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">
                         Contact
                     </a>  
-                    <button 
+                    <button id="log-in-btn"
                         class="flex items-center text-sm font-normal text-black w-24">
                         Log In
                     </button>
-                    <button 
+                    <button id="sign-up-btn"
                         class="flex items-center justify-center px-4 py-2 text-sm font-bold rounded-xl text-white bg-green-500  hover:bg-pink-500 transition duration-300 w-24">
                         Sign Up
                     </button>
@@ -407,7 +407,7 @@
                             </span>
                             <p class="font-extrabold text-2xl text-dark-grey-900">Email</p>
                             <p class="font-normal text-base leading-7 text-dark-grey-600">Contact us at</p>
-                            <p class="font-bold text-lg text-green-500" href="mailto:hi@cachebank.com">hi@cachebank.com</p>
+                            <a class="font-bold text-lg text-green-500" target="_blank" href="mailto:hi@cachebank.com">hi@cachebank.com</a>
                         </div>
 
                         <div class="flex flex-col items-center rounded-3xl shadow-main gap-3 p-8">
@@ -418,7 +418,7 @@
                             </span>
                             <p class="font-extrabold text-2xl text-dark-grey-900">Phone</p>
                             <p class="font-normal text-base leading-7 text-dark-grey-600">Give us a call</p>
-                            <p class="font-bold text-lg text-green-500" href="+215-486-5235">+215-486-5235</p>
+                            <a class="font-bold text-lg text-green-500" href="+215-486-5235">+215-486-5235</a>
                         </div>
 
                         <div class="flex flex-col items-center rounded-3xl shadow-main gap-3 p-8">
@@ -429,7 +429,7 @@
                             </span>
                             <p class="font-extrabold text-2xl text-dark-grey-900">Location</p>
                             <p class="font-normal text-base leading-7 text-dark-grey-600">Find us at our office</p>
-                            <p class="font-bold text-lg text-green-500" target="_blank" href="https://maps.app.goo.gl/2BGKq9Lpr1qh6uH96">15 Tech Road, Cape Town</p>
+                            <a class="font-bold text-lg text-green-500" target="_blank" href="https://maps.app.goo.gl/2BGKq9Lpr1qh6uH96">15 Tech Road, Cape Town</a>
                         </div>
 
                     </div>
@@ -508,9 +508,12 @@
         <script>
             document.getElementById('join-dis-btn')
             .addEventListener('click', function(){
-                 /* add functionality for button clicking */
+                 window.open('https://discord.com', '_blank')
             })
+            
+
         </script>
+
         <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
