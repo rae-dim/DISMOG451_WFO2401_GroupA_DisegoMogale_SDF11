@@ -18,7 +18,7 @@ The purpose of the project was to build a landing page for Cache Bank (the bank 
 # Links
 -  [Video]
 
-- [Slides]
+- [Slides](https://onedrive.live.com/view.aspx?resid=4E29FA2860102AF4%2123653&authkey=!AGgQzCO67XDZ54k)
 
 - [Website](https://cachelandingdim.netlify.app/)
 
