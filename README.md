@@ -16,7 +16,7 @@ The purpose of the project was to build a landing page for Cache Bank (the bank 
 - 
 
 # Links
--  [Video]
+-  [Loom Video](https://www.loom.com/share/1802e99b36a3453aaa426cac68d460c7?sid=f60fb673-58e3-407e-a1cd-2ab372125b6e)
 
 - [Slides](https://onedrive.live.com/view.aspx?resid=4E29FA2860102AF4%2123653&authkey=!AGgQzCO67XDZ54k)
 
