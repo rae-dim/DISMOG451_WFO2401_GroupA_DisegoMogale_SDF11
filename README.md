@@ -1,16 +1,26 @@
-# Installation
+# Cache Bank Landing Page
+### Disego Mogale
 
-```
-# Install dependencies
-npm install
+The purpose of the project was to build a landing page for Cache Bank (the bank for developers). The landing page should be responsive to different screen sizes and enhance accessibility,  this was achieved through the use of Tailwind CSS and JavaScript. 
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
 
-# Compile Tailwind CSS
-npm run build
+# Hurdles
+- General use of Tailwind css
+- Time management
+- Figuring out how to make the page more responsive to different screen sizes
 
-# Compile Tailwind CSS minified
-npm run build-minify
+# Resources:
+- [Loople for template assistance](https://www.loopple.com/)
+- [Codepen to see tailwind css in action](https://codepen.io/topic/tailwind/picks)
+- [Youtube video to expand knowledge of accessibility](https://youtu.be/0hqhAIjE_8I?si=bdhHFFTds4Wd2YmA)
+- 
 
-```
+# Links
+-  [Loom Video](https://www.loom.com/share/1802e99b36a3453aaa426cac68d460c7?sid=f60fb673-58e3-407e-a1cd-2ab372125b6e)
+
+- [Slides](https://onedrive.live.com/view.aspx?resid=4E29FA2860102AF4%2123653&authkey=!AGgQzCO67XDZ54k)
+
+- [Website](https://cachelandingdim.netlify.app/)
+
+
+
